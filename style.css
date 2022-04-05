@@ -1,0 +1,125 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    scroll-behavior: smooth !important;
+}
+
+button{
+    height: 55px;
+    width: 230px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 10%), 0 2px 4px rgb(0 0 0 / 10%);
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#memberButton{
+    background-color: black;
+    color: white;
+    margin-right: 15px;
+    width: 190px;
+}
+
+#container1 h1{
+font-size: 4rem;
+font-weight: 300;
+line-height: 90%;
+margin-bottom: 0px;
+}
+
+#container1 p{
+    font-size: 1.5rem;
+    color: rgb(63, 63, 63);
+
+}
+
+#container1 > div{
+    width: calc(50vw - 200px)  ;
+    margin: 100px;
+ }
+
+#container1{
+display: flex;
+justify-content: space-between;
+width: 100vw;
+
+}
+
+/* Nav */
+
+header nav{
+    height: 50px;
+    width: 100vw;
+    margin: 25px 25px 0 5px;
+}
+
+header nav ul{
+    /* display: flex; */
+    list-style: none;
+    position: relative;
+ 
+
+}
+
+header nav li:first-child{
+float: left;
+margin-left: -10px;
+
+}
+
+header nav li{
+    margin-right: 50px;
+     margin-left: auto;
+     display: inline;
+     float: right;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Side Nav */
+#sideNav{
+    height: 200px;
+    position: fixed;
+    width: 50px;
+    right: 0;
+    top: 35vh;
+
+}
+
+#sideNav a{
+    height: 100px;
+    width: 50px;
+}
+
+#sideNav div {
+    height: 25px;
+    width: 5px;
+    border-radius: 10px;
+    background-color: rgb(194, 194, 194);
+    margin-bottom: 10px;
+
+}
+
+div #active{
+    height: 35px;
+    width: 5px;
+    background-color: rgb(158, 158, 158);
+
+}
+
+/*  */
+
+
+section{
+    height: 100vw;
+}
